@@ -5,3 +5,32 @@
     color: white;
     font-size: 16pt;
 }
+/* app-grid.component.css */
+body {
+  background-color: azure;
+}
+.containerNavBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  gap: 10px;
+  background-color: #dddddd;
+
+}
+.btnNavBar{
+  margin: auto;
+  background-color: #ccc;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: #22222223;
+}
+
+
+img{
+  border: 1px solid #ccc;
+}

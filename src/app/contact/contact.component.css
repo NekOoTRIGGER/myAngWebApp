@@ -1,0 +1,11 @@
+.containerContact {
+    align-content: center;
+    display: grid;
+    margin: auto;
+    width: 50%;
+    color: aliceblue;
+}
+
+a {
+    margin: auto;
+}
