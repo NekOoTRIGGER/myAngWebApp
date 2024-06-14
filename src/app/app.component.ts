@@ -8,6 +8,8 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
+ 
 export class AppComponent {
   title = 'myAngWebApp';
 }

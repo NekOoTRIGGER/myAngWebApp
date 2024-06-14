@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pictures',
@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
   templateUrl: './pictures.component.html',
   styleUrl: './pictures.component.css'
 })
-export class PicturesComponent {
 
+export class PicturesComponent {
+  toDos: string = "yoyoyoyo";
+
+  getString(): void {
+    alert(this.toDos) 
+  }
 }

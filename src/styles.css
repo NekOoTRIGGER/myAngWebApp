@@ -1,5 +1,5 @@
 body {
-  background-image: url("./assets/images/siteBG.jpg");
+  background-image: url("./assets/images/mainbg.webp");
 }
 
 .gridContainer {
@@ -12,7 +12,9 @@ body {
 .gridItem {
   border-radius: 5%;
   background-color: #f0f0f0;
+  box-shadow: 3px 3px #ccc;
   display: grid;
+  border: 1px solid #ccc;
   grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-content: center;
