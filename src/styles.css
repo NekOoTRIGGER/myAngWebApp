@@ -1,0 +1,53 @@
+/* app-grid.component.css */
+body {
+  background-color: azure;
+}
+.containerNavBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  gap: 10px;
+  background-color: #dddddd;
+
+}
+.btnNavBar{
+  margin: auto;
+  background-color: #ccc;
+}
+
+a{
+  display: block;
+  padding: 10px;
+  background-color: #dddddd;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: #22222223;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.gridItem {
+  box-shadow: 2px 2px #ccc;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.GridItemDescription{
+  margin: 5px;
+}
+
+img{
+  border: 1px solid #ccc;
+}
